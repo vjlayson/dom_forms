@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" name="myForm">
+
+        <label for="">Text in a box</label>
+        <input type="text" name="inputBox">
+        <input type="button" name="button1" id="" value="read" onclick="readText(this.form)">
+        <input type="button" name="button2" id="" value="write" onclick="writeText(this.form)">
+
+        <p id="buttons">
+            <input type="radio" name="radbtn" value="radbtn1">Radio Button 1
+            <input type="radio" name="radbtn" value="radbtn2">Radio Button 2
+            <input type="radio" name="radbtn" value="radbtn3">Radio Button 3
+
+            <input type="button" name="radbutton" value="Click Radio Button">
+
+        </p>
+
+        <input type="checkbox" name="accept" id="accept">Accept the terms and conditions
+        <button type="button" id="acceptbtn">Submit</button>
+
+        <p>Checkbox toggle</p>
+        <input type="checkbox" name="selectcheck" id="selectall">Select all
+        <input type="checkbox" name="checked" value="check1" id="">Check1
+        <input type="checkbox" name="checked" value="check2" id="">Check2
+        <input type="checkbox" name="checked" value="check3" id="">Check3
+        <input type="checkbox" name="checked" value="check4" id="">Check4
+
+        <p>Checkbox multiple click</p>
+        <input type="checkbox" name="colors" value="red" id="">Red
+        <input type="checkbox" name="colors" value="green" id="">Green
+        <input type="checkbox" name="colors" value="blue" id="">Blue
+        <input type="checkbox" name="colors" value="yellow" id="">Yellow
+        <button id="btn-color">Get selected colors</button>
+        <br>
+        <button id="btn-toggle" type="button">Check/Uncheck all</button>
+
+    </form>
+    
+
+
+    <script src="js/dom_forms.js"></script>
+</body>
+</html>
